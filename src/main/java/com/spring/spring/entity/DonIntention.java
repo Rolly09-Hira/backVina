@@ -209,7 +209,7 @@ public class DonIntention {
 
     public enum ModePaiement {
         WAVE,
-        ORANGE_MONEY,
+        MOBILE_MONEY,
         FREE_MONEY,
         VIREMENT,
         CHEQUE,

@@ -31,7 +31,7 @@ public class TestEmailController {
             test.setTelephone("+261341234567");
             test.setMontant(new BigDecimal("50000"));
             test.setMontantType(DonIntention.MontantType.FIXE);
-            test.setModePaiementSouhaite(DonIntention.ModePaiement.ORANGE_MONEY);
+            test.setModePaiementSouhaite(DonIntention.ModePaiement.MOBILE_MONEY);
             test.setMessage("Test Brevo SMTP - Ceci est un message de test");
             test.setDateSoumission(LocalDateTime.now());
             test.setPays("Madagascar");
